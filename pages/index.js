@@ -1,1 +1,2 @@
-export default () => <h1>Itaca!</h1>
+import Login from '../src/Login'
+export default () => <Login />
