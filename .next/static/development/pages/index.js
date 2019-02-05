@@ -104,9 +104,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Login", function() { return Login; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Form */ "./src/components/Form.js");
-/* harmony import */ var _components_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Input */ "./src/components/Input.js");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Button */ "./src/components/Button.js");
+/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Form */ "./src/components/Form/index.js");
+/* harmony import */ var _components_Input_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Input/index */ "./src/components/Input/index.js");
+/* harmony import */ var _components_Button_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Button/index */ "./src/components/Button/index.js");
 var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/Login/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -169,7 +169,7 @@ function (_Component) {
           lineNumber: 11
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Input_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
         type: "text",
         placeholder: "user",
         onChange: this.onChange,
@@ -179,7 +179,7 @@ function (_Component) {
           lineNumber: 12
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Input_index__WEBPACK_IMPORTED_MODULE_2__["default"], {
         type: "password",
         placeholder: "password",
         onChange: this.onChange,
@@ -189,7 +189,7 @@ function (_Component) {
           lineNumber: 13
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button_index__WEBPACK_IMPORTED_MODULE_3__["default"], {
         type: "submit",
         className: "button-submit",
         text: "Sigin",
@@ -208,10 +208,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Button.js":
-/*!**********************************!*\
-  !*** ./src/components/Button.js ***!
-  \**********************************/
+/***/ "./src/components/Button/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Button/index.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -219,7 +219,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Button.js";
+var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Button/index.js";
 
 
 var Button = function Button(_ref) {
@@ -241,10 +241,10 @@ var Button = function Button(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/Form.js":
-/*!********************************!*\
-  !*** ./src/components/Form.js ***!
-  \********************************/
+/***/ "./src/components/Form/index.js":
+/*!**************************************!*\
+  !*** ./src/components/Form/index.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -252,7 +252,7 @@ var Button = function Button(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Form.js";
+var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Form/index.js";
 
 
 var Form = function Form(_ref) {
@@ -274,10 +274,10 @@ var Form = function Form(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/Input.js":
-/*!*********************************!*\
-  !*** ./src/components/Input.js ***!
-  \*********************************/
+/***/ "./src/components/Input/index.js":
+/*!***************************************!*\
+  !*** ./src/components/Input/index.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -285,7 +285,7 @@ var Form = function Form(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Input.js";
+var _jsxFileName = "/Users/nicolasriquelmeguzman/Documents/React/Itaca/src/components/Input/index.js";
 
 
 var Input = function Input(_ref) {

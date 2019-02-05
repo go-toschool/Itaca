@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Form from '../components/Form'
-import Input from '../components/Input'
-import Button from '../components/Button'
+import Input from '../components/Input/index'
+import Button from '../components/Button/index'
 
 export class Login extends Component {
   onSubmit = () => {}
