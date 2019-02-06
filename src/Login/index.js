@@ -4,6 +4,11 @@ import Input from '../components/Input/index'
 import Button from '../components/Button/index'
 
 export class Login extends Component {
+  state = {
+    user: {
+      
+    }
+  }
   onSubmit = () => {}
   onChange = () => {}
   render(){
